@@ -2,7 +2,7 @@ import { Color, Colors } from "@luk3d/flutjs/dist/painting/colors.js";
 import { AbsoluteUnits } from "@luk3d/flutjs/dist/rendering/mesurementes.js";
 import { Widget } from "@luk3d/flutjs/dist/widgets/index.js";
 
-function academicCap(args: { color?: Color; size?: number }) {
+function fhAcademicCap(args: { color?: Color; size?: number }) {
   if (!args.size) {
     args.size = 32;
   }
@@ -25,7 +25,7 @@ function academicCap(args: { color?: Color; size?: number }) {
 
   return icon;
 }
-function adjustments(args: { color?: Color; size?: number }) {
+function fhAdjustments(args: { color?: Color; size?: number }) {
   if (!args.size) {
     args.size = 32;
   }
@@ -45,7 +45,7 @@ function adjustments(args: { color?: Color; size?: number }) {
 
   return icon;
 }
-function annotation(args: { color?: Color; size?: number }) {
+function fhAnnotation(args: { color?: Color; size?: number }) {
   if (!args.size) {
     args.size = 32;
   }
@@ -65,7 +65,7 @@ function annotation(args: { color?: Color; size?: number }) {
 
   return icon;
 }
-function archive(args: { color?: Color; size?: number }) {
+function fhArchive(args: { color?: Color; size?: number }) {
   if (!args.size) {
     args.size = 32;
   }
@@ -86,7 +86,7 @@ function archive(args: { color?: Color; size?: number }) {
   return icon;
 }
 
-function arrowCircleDown(args: { color?: Color; size?: number }) {
+function fhArrowCircleDown(args: { color?: Color; size?: number }) {
   if (!args.size) {
     args.size = 32;
   }
@@ -108,7 +108,7 @@ function arrowCircleDown(args: { color?: Color; size?: number }) {
 }
 
 
-function arrowCircleLeft(args: { color?: Color; size?: number }) {
+function fhArrowCircleLeft(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -130,7 +130,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function arrowCircleRight(args: { color?: Color; size?: number }) {
+  function fhArrowCircleRight(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -151,7 +151,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function arrowCircleUp(args: { color?: Color; size?: number }) {
+  function fhArrowCircleUp(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -172,7 +172,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function arrowDown(args: { color?: Color; size?: number }) {
+  function fhArrowDown(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -194,7 +194,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
   
-  function arrowLeft(args: { color?: Color; size?: number }) {
+  function fhArrowLeft(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -215,7 +215,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function arrowNarrowDown(args: { color?: Color; size?: number }) {
+  function fhArrowNarrowDown(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -236,7 +236,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function arrowNarrowLeft(args: { color?: Color; size?: number }) {
+  function fhArrowNarrowLeft(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -257,7 +257,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function arrowNarrowRight(args: { color?: Color; size?: number }) {
+  function fhArrowNarrowRight(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -279,7 +279,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
   
-  function arrowNarrowUp(args: { color?: Color; size?: number }) {
+  function fhArrowNarrowUp(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -301,7 +301,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
   
-  function arrowRight(args: { color?: Color; size?: number }) {
+  function fhArrowRight(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -321,7 +321,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
  
-  function arrowSmDown(args: { color?: Color; size?: number }) {
+  function fhArrowSmDown(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -343,7 +343,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
    
-  function arrowSmLeft(args: { color?: Color; size?: number }) {
+  function fhArrowSmLeft(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -365,7 +365,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
    
-  function arrowSmRight(args: { color?: Color; size?: number }) {
+  function fhArrowSmRight(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -387,7 +387,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
    
-  function arrowSmUp(args: { color?: Color; size?: number }) {
+  function fhArrowSmUp(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -407,7 +407,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function arrowUp(args: { color?: Color; size?: number }) {
+  function fhArrowUp(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -427,7 +427,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function arrowsExpand(args: { color?: Color; size?: number }) {
+  function fhArrowsExpand(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -448,7 +448,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function atSymbol(args: { color?: Color; size?: number }) {
+  function fhAtSymbol(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -469,7 +469,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function backspace(args: { color?: Color; size?: number }) {
+  function fhBackspace(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -489,7 +489,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function badgeCheck(args: { color?: Color; size?: number }) {
+  function fhBadgeCheck(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -510,7 +510,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function ban(args: { color?: Color; size?: number }) {
+  function fhBan(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -531,7 +531,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function beaker(args: { color?: Color; size?: number }) {
+  function fhBeaker(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -552,7 +552,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function bell(args: { color?: Color; size?: number }) {
+  function fhBell(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -574,7 +574,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function bookOpen(args: { color?: Color; size?: number }) {
+  function fhBookOpen(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -596,7 +596,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function bookmarkAlt(args: { color?: Color; size?: number }) {
+  function fhBookmarkAlt(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -617,7 +617,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function bookmark(args: { color?: Color; size?: number }) {
+  function fhBookmark(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -638,7 +638,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function briefcase(args: { color?: Color; size?: number }) {
+  function fhBriefcase(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -659,7 +659,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function cake(args: { color?: Color; size?: number }) {
+  function fhCake(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -680,7 +680,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function calculator(args: { color?: Color; size?: number }) {
+  function fhCalculator(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -701,7 +701,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function calendar(args: { color?: Color; size?: number }) {
+  function fhCalendar(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -722,7 +722,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function camera(args: { color?: Color; size?: number }) {
+  function fhCamera(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -744,7 +744,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function cash(args: { color?: Color; size?: number }) {
+  function fhCash(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -765,7 +765,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chartBar(args: { color?: Color; size?: number }) {
+  function fhChartBar(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -786,7 +786,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chartPie(args: { color?: Color; size?: number }) {
+  function fhChartPie(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -808,7 +808,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chartSquareBar(args: { color?: Color; size?: number }) {
+  function fhChartSquareBar(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -829,7 +829,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chatAlt2(args: { color?: Color; size?: number }) {
+  function fhChatAlt2(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -850,7 +850,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chatAlt(args: { color?: Color; size?: number }) {
+  function fhChatAlt(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -871,7 +871,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chat(args: { color?: Color; size?: number }) {
+  function fhChat(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -892,7 +892,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function checkCircle(args: { color?: Color; size?: number }) {
+  function fhCheckCircle(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -912,7 +912,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function check(args: { color?: Color; size?: number }) {
+  function fhCheck(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -933,7 +933,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chevronDoubleDown  (args: { color?: Color; size?: number }) {
+  function fhChevronDoubleDown  (args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -954,7 +954,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chevronDoubleLeft
+  function fhChevronDoubleLeft
   (args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
@@ -976,7 +976,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chevronDoubleRight(args: { color?: Color; size?: number }) {
+  function fhChevronDoubleRight(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -996,7 +996,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function chevronDoubleUp(args: { color?: Color; size?: number }) {
+  function fhChevronDoubleUp(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1017,7 +1017,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chevronDown(args: { color?: Color; size?: number }) {
+  function fhChevronDown(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1039,7 +1039,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function chevronLeft(args: { color?: Color; size?: number }) {
+  function fhChevronLeft(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1061,7 +1061,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function chevronRight(args: { color?: Color; size?: number }) {
+  function fhChevronRight(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1082,7 +1082,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function chevronUp(args: { color?: Color; size?: number }) {
+  function fhChevronUp(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1104,7 +1104,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function chip(args: { color?: Color; size?: number }) {
+  function fhChip(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1126,7 +1126,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function clipboardCheck(args: { color?: Color; size?: number }) {
+  function fhClipboardCheck(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1148,7 +1148,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function clipboardCopy(args: { color?: Color; size?: number }) {
+  function fhClipboardCopy(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1171,7 +1171,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function clipboardList(args: { color?: Color; size?: number }) {
+  function fhClipboardList(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1192,7 +1192,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function clipboard(args: { color?: Color; size?: number }) {
+  function fhClipboard(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1213,7 +1213,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function clock(args: { color?: Color; size?: number }) {
+  function fhClock(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1235,7 +1235,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function cloudDownload(args: { color?: Color; size?: number }) {
+  function fhCloudDownload(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1257,7 +1257,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function cloudUpload(args: { color?: Color; size?: number }) {
+  function fhCloudUpload(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1280,7 +1280,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function cloud(args: { color?: Color; size?: number }) {
+  function fhCloud(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1302,7 +1302,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function code(args: { color?: Color; size?: number }) {
+  function fhCode(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1324,7 +1324,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function cog(args: { color?: Color; size?: number }) {
+  function fhCog(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1347,7 +1347,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function collection(args: { color?: Color; size?: number }) {
+  function fhCollection(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1369,7 +1369,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function colorSwatch(args: { color?: Color; size?: number }) {
+  function fhColorSwatch(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1391,7 +1391,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function creditCard(args: { color?: Color; size?: number }) {
+  function fhCreditCard(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1413,7 +1413,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 
-  function cubeTransparent(args: { color?: Color; size?: number }) {
+  function fhCubeTransparent(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1433,7 +1433,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function cube(args: { color?: Color; size?: number }) {
+  function fhCube(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1453,7 +1453,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function currencyBangladeshi(args: { color?: Color; size?: number }) {
+  function fhCurrencyBangladeshi(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1473,7 +1473,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function currencyDollar(args: { color?: Color; size?: number }) {
+  function fhCurrencyDollar(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1493,7 +1493,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     return icon;
   }
 
-  function currencyEuro(args: { color?: Color; size?: number }) {
+  function fhCurrencyEuro(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1512,7 +1512,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     icon.css!.apply(icon);
     return icon;
   }
-  function currencyPound(args: { color?: Color; size?: number }) {
+  function fhCurrencyPound(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1533,7 +1533,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function currencyRupee(args: { color?: Color; size?: number }) {
+  function fhCurrencyRupee(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1554,7 +1554,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function currencyYen(args: { color?: Color; size?: number }) {
+  function fhCurrencyYen(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1575,7 +1575,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function cursorClick(args: { color?: Color; size?: number }) {
+  function fhCursorClick(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1596,7 +1596,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function database(args: { color?: Color; size?: number }) {
+  function fhDatabase(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1617,7 +1617,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function desktopComputer(args: { color?: Color; size?: number }) {
+  function fhDesktopComputer(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1638,7 +1638,7 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
   }
 
 
-  function deviceMobile(args: { color?: Color; size?: number }) {
+  function fhDeviceMobile(args: { color?: Color; size?: number }) {
     if (!args.size) {
       args.size = 32;
     }
@@ -1657,6 +1657,3117 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
     icon.css!.apply(icon);
     return icon;
   }
+  function fhDeviceTablet(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDocumentAdd(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDocumentDownload(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDocumentDuplicate(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDocumentRemove(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDocumentReport(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDocumentSearch(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhDocumentText(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhDocument(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDotsCircleHorizontal(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDotsHorizontal(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhDotsVertical(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhDownload(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhDuplicate(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhEmojiHappy(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhEmojiSad(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhExclamationCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhExclamation(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhExternalLink(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhEyeOff  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhEye  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhFastForward  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhFilm  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhFilter  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+  function fhFingerPrint  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+
+  function fhFire  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+  function fhFlag  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhFolderAdd  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhFolderDownload  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhFolderOpen(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhFolderRemove(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhFolder(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhGift(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhGlobeAlt(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhGlobe(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhHand(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhHashtag(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhHeart(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhHome(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhIdentification(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhInboxIn(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhInbox(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhInformationCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhKey(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhLibrary(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhLightBulb(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhLightningBolt(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhLink(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhLocationMarker(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhLockClosed(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhLockOpen  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhLogin  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhLogout  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhMailOpen  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhMail  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhMap  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhMenuAlt1  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h8m-8 6h16" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhMenuAlt2  (args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhMenuAlt3(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+</svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhMenuAlt4(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhMenu(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhMicrophone(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhMinusCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhMinusSm(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhMinus(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20 12H4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhMoon(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhMusicNote(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhNewspaper(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhOfficeBuilding(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPaperAirplane(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPaperClip(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPause(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPencilAlt(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPencil(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPhoneIncoming(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPhoneMissedCall(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16 8l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPhoneOutgoing(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h5m0 0v5m0-5l-6 6M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPhone(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPhotograph(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPlay(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPlusCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPlusSm(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPlus(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPresentationChartBar(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPresentationChartLine(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+</svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhPrinter(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhPuzzle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhQrcode(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhQuestionMarkCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhReceiptRefund(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16 15v-1a4 4 0 00-4-4H8m0 0l3 3m-3-3l3-3m9 14V5a2 2 0 00-2-2H6a2 2 0 00-2 2v16l4-2 4 2 4-2 4 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhReceiptTax(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+  function fhRefresh(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhReply(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+  function fhRewind(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+  function fhRss(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhSaveAs(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17 16v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-7a2 2 0 012-2h2m3-4H9a2 2 0 00-2 2v7a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-1m-1 4l-3 3m0 0l-3-3m3 3V3" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSave(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhScale(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhScissors(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSearchCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSearch(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhSelector(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l4-4 4 4m0 6l-4 4-4-4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhServer(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhShare(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhShieldCheck(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhShieldExclamation(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  
+  function fhShoppingBag(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhShoppingCart(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhSortAscending(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSortDescending(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhSparkles(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+</svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSpeakerphone(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhStar(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhStatusOffline(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414m-1.414-1.414L3 3m8.293 8.293l1.414 1.414" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+
+  function fhStatusOnline(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5.636 18.364a9 9 0 010-12.728m12.728 0a9 9 0 010 12.728m-9.9-2.829a5 5 0 010-7.07m7.072 0a5 5 0 010 7.07M13 12a1 1 0 11-2 0 1 1 0 012 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhStop(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhSun(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSupport(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhSwitchHorizontal(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhSwitchVertical(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTable(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhTag(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhTemplate(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhTerminal(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhThumbDown(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10 14H5.236a2 2 0 01-1.789-2.894l3.5-7A2 2 0 018.736 3h4.018a2 2 0 01.485.06l3.76.94m-7 10v5a2 2 0 002 2h.096c.5 0 .905-.405.905-.904 0-.715.211-1.413.608-2.008L17 13V4m-7 10h2m5-10h2a2 2 0 012 2v6a2 2 0 01-2 2h-2.5" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+  function fhThumbUp(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTicket(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTranslate(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTrash(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTrendingDown(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTrendingUp(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhTruck(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhUpload(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+</svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhUserAdd(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhUserCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhUserGroup(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhUserRemove(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7a4 4 0 11-8 0 4 4 0 018 0zM9 14a6 6 0 00-6 6v1h12v-1a6 6 0 00-6-6zM21 12h-6" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhUser(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhUsers(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhVariable(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13 0a17.926 17.926 0 001.87-8c0-2.874-.673-5.59-1.87-8M9 9h1.246a1 1 0 01.961.725l1.586 5.55a1 1 0 00.961.725H15m1-7h-.08a2 2 0 00-1.519.698L9.6 15.302A2 2 0 018.08 16H8" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhVideoCamera(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhViewBoards(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+</svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhViewGridAdd(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhViewGrid(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhViewList(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhVolumeOff(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clip-rule="evenodd" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhVolumeUp(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+
+  function fhWifi(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+
+  function fhXCircle(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhX(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhZoomIn(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
+
+  function fhZoomOut(args: { color?: Color; size?: number }) {
+    if (!args.size) {
+      args.size = 32;
+    }
+    var icon = new Widget({
+      tagName: "div",
+      width: args.size,
+      height: args.size,
+      width_size_measurement_unit:AbsoluteUnits.pixels,
+      height_size_measurement_unit:AbsoluteUnits.pixels
+    });
+    icon.tag!.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM13 10H7" />
+  </svg>`;
+  
+    icon.css!._props.color = (args.color ?? Colors.White).value;
+    icon.css!.apply(icon);
+    return icon;
+  }
 
 
 
@@ -1664,83 +4775,236 @@ function arrowCircleLeft(args: { color?: Color; size?: number }) {
 
 
 export { 
-    academicCap, 
-    adjustments ,
-    arrowCircleDown,
-    annotation,
-    archive,
-    arrowCircleLeft,
-    arrowCircleRight,
-    arrowCircleUp,
-    arrowDown,
-    arrowLeft,
-    arrowNarrowDown,
-    arrowNarrowLeft,
-    arrowNarrowRight,
-    arrowNarrowUp,
-    arrowRight,
-    arrowSmDown,
-    arrowSmLeft,
-    arrowSmRight,
-    arrowSmUp,
-    arrowUp,
-    arrowsExpand,
-    atSymbol,
-    backspace,
-    badgeCheck,
-    ban,
-    beaker,
-    bell,
-    bookOpen,
-    bookmark,
-    bookmarkAlt,
-    briefcase,
-    cake,
-    calculator,
-    calendar,
-    camera,
-    cash,
-    chartBar,
-    chartPie,
-    chartSquareBar,
-    chat,
-    chatAlt,
-    chatAlt2,
-    check,
-    checkCircle,
-    chevronDoubleDown,
-    chevronDoubleLeft,
-    chevronDoubleRight,
-    chevronDoubleUp,
-    chevronDown,
-    chevronLeft,
-    chevronRight,
-    chevronUp,
-    chip,
-    clipboard,
-    clipboardCheck,
-    clipboardCopy,
-    clipboardList,
-    clock,
-    cloud,
-    cloudDownload,
-    cloudUpload,
-    code,
-    cog,
-    collection,
-    colorSwatch,
-    creditCard,
-    cube,
-    cubeTransparent,
-    currencyBangladeshi,
-    currencyDollar,
-    currencyEuro,
-    currencyPound,
-    currencyRupee,
-    currencyYen,
-    cursorClick,
-    database,
-    desktopComputer,
-    deviceMobile,
+    fhAcademicCap, 
+    fhAdjustments ,
+    fhArrowCircleDown,
+    fhAnnotation,
+    fhArchive,
+    fhArrowCircleLeft,
+    fhArrowCircleRight,
+    fhArrowCircleUp,
+    fhArrowDown,
+    fhArrowLeft,
+    fhArrowNarrowDown,
+    fhArrowNarrowLeft,
+    fhArrowNarrowRight,
+    fhArrowNarrowUp,
+    fhArrowRight,
+    fhArrowSmDown,
+    fhArrowSmLeft,
+    fhArrowSmRight,
+    fhArrowSmUp,
+    fhArrowUp,
+    fhArrowsExpand,
+    fhAtSymbol,
+    fhBackspace,
+    fhBadgeCheck,
+    fhBan,
+    fhBeaker,
+    fhBell,
+    fhBookOpen,
+    fhBookmark,
+    fhBookmarkAlt,
+    fhBriefcase,
+    fhCake,
+    fhCalculator,
+    fhCalendar,
+    fhCamera,
+    fhCash,
+    fhChartBar,
+    fhChartPie,
+    fhChartSquareBar,
+    fhChat,
+    fhChatAlt,
+    fhChatAlt2,
+    fhCheck,
+    fhCheckCircle,
+    fhChevronDoubleDown,
+    fhChevronDoubleLeft,
+    fhChevronDoubleRight,
+    fhChevronDoubleUp,
+    fhChevronDown,
+    fhChevronLeft,
+    fhChevronRight,
+    fhChevronUp,
+    fhChip,
+    fhClipboard,
+    fhClipboardCheck,
+    fhClipboardCopy,
+    fhClipboardList,
+    fhClock,
+    fhCloud,
+    fhCloudDownload,
+    fhCloudUpload,
+    fhCode,
+    fhCog,
+    fhCollection,
+    fhColorSwatch,
+    fhCreditCard,
+    fhCube,
+    fhCubeTransparent,
+    fhCurrencyBangladeshi,
+    fhCurrencyDollar,
+    fhCurrencyEuro,
+    fhCurrencyPound,
+    fhCurrencyRupee,
+    fhCurrencyYen,
+    fhCursorClick,
+    fhDatabase,
+    fhDesktopComputer,
+    fhDeviceMobile,
+
+    fhDeviceTablet,
+    fhDocumentAdd,
+    fhDocumentDownload,
+    fhDocumentDuplicate,
+    fhDocumentRemove,
+    fhDocumentReport,
+    fhDocumentSearch,
+    fhDocumentText,
+    fhDocument,
+    fhDotsCircleHorizontal,
+    fhDotsHorizontal,
+    fhDotsVertical,
+    fhDownload,
+    fhDuplicate,
+    fhEmojiHappy,
+    fhEmojiSad,
+    fhExclamationCircle,
+    fhExclamation,
+    fhExternalLink,
+    fhEyeOff,
+    fhEye,
+    fhFastForward,
+    fhFilm,
+    fhFilter,
+    fhFingerPrint,
+    fhFire,
+    fhFlag,
+    fhFolderAdd,
+    fhFolderDownload,
+    fhFolderOpen,
+    fhFolderRemove,
+    fhFolder,
+    fhGift,
+    fhGlobeAlt,
+    fhGlobe,
+    fhHand,
+    fhHashtag,
+    fhHeart,
+    fhHome,
+    fhIdentification,
+    fhInboxIn,
+    fhInbox,
+    fhInformationCircle,
+    fhKey,
+    fhLibrary,
+    fhLightBulb,
+    fhLightningBolt,
+    fhLink,
+    fhLocationMarker,
+    fhLockClosed,
+    fhLockOpen,
+    fhLogin,
+    fhLogout,
+    fhMailOpen,
+    fhMail,
+    fhMap,
+    fhMenuAlt1,
+    fhMenuAlt2,
+    fhMenuAlt3,
+    fhMenuAlt4,
+    fhMenu,
+    fhMicrophone,
+    fhMinusCircle,
+    fhMinusSm,
+    fhMinus,
+    fhMoon,
+    fhMusicNote,
+    fhNewspaper,
+    fhOfficeBuilding,
+    fhPaperAirplane,
+    fhPaperClip,
+    fhPause,
+    fhPencilAlt,
+    fhPencil,
+    fhPhoneIncoming,
+    fhPhoneMissedCall,
+    fhPhoneOutgoing,
+    fhPhone,
+    fhPhotograph,
+    fhPlay,
+    fhPlusCircle,
+    fhPlusSm,
+    fhPlus,
+    fhPresentationChartBar,
+    fhPresentationChartLine,
+    fhPrinter,
+    fhPuzzle,
+    fhQrcode,
+    fhQuestionMarkCircle,
+    fhReceiptRefund,
+    fhReceiptTax,
+    fhRefresh,
+    fhReply,
+    fhRewind,
+    fhRss,
+    fhSaveAs,
+    fhSave,
+    fhScale,
+    fhScissors,
+    fhSearchCircle,
+    fhSearch,
+    fhSelector,
+    fhServer,
+    fhShare,
+    fhShieldCheck,
+    fhShieldExclamation,
+    fhShoppingBag,
+    fhShoppingCart,
+    fhSortAscending,
+    fhSortDescending,
+    fhSparkles,
+    fhSpeakerphone,
+    fhStar,
+    fhStatusOffline,
+    fhStatusOnline,
+    fhStop,
+    fhSun,
+    fhSupport,
+    fhSwitchHorizontal,
+    fhSwitchVertical,
+    fhTable,
+    fhTag,
+    fhTemplate,
+    fhTerminal,
+    fhThumbDown,
+    fhThumbUp,
+    fhTicket,
+    fhTranslate,
+    fhTrash,
+    fhTrendingDown,
+    fhTrendingUp,
+    fhTruck,
+    fhUpload,
+    fhUserAdd,
+    fhUserCircle,
+    fhUserGroup,
+    fhUserRemove,
+    fhUser,
+    fhUsers,
+    fhVariable,
+    fhVideoCamera,
+    fhViewBoards,
+    fhViewGridAdd,
+    fhViewGrid,
+    fhViewList,
+    fhVolumeOff,
+    fhVolumeUp,
+    fhWifi,
+    fhXCircle,
+    fhX,
+    fhZoomIn,
+    fhZoomOut,
 
 };
